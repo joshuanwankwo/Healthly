@@ -9,7 +9,7 @@ module.exports = {
   },
   devServer: {
     contentBase: './src/assets',
-    port: 8080
+    port: 2019
   },
   module: {
     rules: [
