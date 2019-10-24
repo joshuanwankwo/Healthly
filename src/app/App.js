@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import FindADoctor from '../components/find-a-doc/find-a-doctor';
+import FindADoctorNav from '../components/find-a-doctor-Nav/find-a-doctor-nav';
 
 class App extends React.Component{
     render(){
         return (
             <div>
-                <FindADoctor />
+                <FindADoctorNav />
             </div>
         )
     }
