@@ -1,15 +1,19 @@
 import React from 'react';
-import Josh from '../components/josh/josh'
+import './App.css';
+import FindADoctorNav from '../components/find-a-doctor-Nav/find-a-doctor-nav';
 
 class App extends React.Component{
     render(){
         return (
             <div>
-                <h1>Welcome to Healthie Team</h1>
-                <Josh />    
+                <FindADoctorNav />
             </div>
         )
     }
 }
 
+
+
+  
+  
 export default App;
