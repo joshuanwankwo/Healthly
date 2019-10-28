@@ -18,7 +18,9 @@ import SelectSearchedDoctor from '../components/selectSearchDoctors/select-Searc
   
 class App extends React.Component{
     render(){
-        <LandingPage />
+            return(
+                <Symptoms />
+            )
     }
 }
 

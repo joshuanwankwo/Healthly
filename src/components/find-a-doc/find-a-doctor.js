@@ -1,7 +1,7 @@
 import React from 'react';
 import './find-a-doctor.css';
 import NavBar from '../findADoctorNav/navBar';
-import FindADoctorCard from '../find-a-Doctor-Card/Find-a-Doctor-Card';
+import FindADoctorCard from '../findADoctorCard/findADoctorCard';
 
 
 class FindADoctor extends React.Component { 
