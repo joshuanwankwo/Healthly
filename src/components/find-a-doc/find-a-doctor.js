@@ -1,10 +1,10 @@
 import React from 'react';
 import './find-a-doctor.css';
-import NavBar from '../find-a-doctor-Nav/find-a-doctor-nav';
+import NavBar from '../findADoctorNav/navBar';
 import FindADoctorCard from '../find-a-Doctor-Card/Find-a-Doctor-Card';
 
 
-class FindADoctor extends React.Component {
+class FindADoctor extends React.Component { 
     constructor(props) {
         super(props);
         this.state = {  }
@@ -22,5 +22,7 @@ class FindADoctor extends React.Component {
          );
     }
 }
+
+
  
 export default FindADoctor;
