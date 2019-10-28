@@ -4,8 +4,8 @@ import './App.css';
 
 import FindADoctorNav from '../components/find-a-doctor-Nav/find-a-doctor-nav';
 import LandingPage from './Landing-page/Landing-Page';
-import LoginPage from './LoginPage/loginpage';
-import SignUp from './SignupPage/signup';
+import LoginPage from '../components/LoginPage/loginpage';
+import SignUp from '../components/SignupPage/signup';
 import Navbar from '../components/navbar/navbar';
 import DoctorsProfile from './DoctorsProfile/DoctorsProfile'
 import HomePage from '../components/homePage/HomePage'
@@ -18,7 +18,7 @@ import SelectSearchedDoctor from '../components/selectSearchDoctors/select-Searc
   
 class App extends React.Component{
     render(){
-        
+
     }
 }
 
