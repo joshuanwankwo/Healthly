@@ -1,19 +1,21 @@
 import React from 'react';
-import './App.css';
-import FindADoctor from '../components/find-a-doc/find-a-doctor';
+import LandingPage from './Landing-page/Landing-Page';
+import LoginPage from './LoginPage/loginpage';
+import SignUp from './SignupPage/signup';
+import Navbar from '../components/navbar/navbar';
+import DoctorsProfile from './DoctorsProfile/DoctorsProfile'
+
 
 class App extends React.Component{
     render(){
         return (
             <div>
-                <FindADoctor />
+              
+
             </div>
         )
     }
 }
 
-
-
-  
-  
 export default App;
+
