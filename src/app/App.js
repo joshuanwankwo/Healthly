@@ -1,14 +1,9 @@
 import React from 'react';
-import Josh from '../components/josh/josh'
-
+import HomePage from '../components/homePage/HomePage'
+import Symptoms from '../components/Symptoms/Symptoms'
+import BookDoc from '../components/bookDoc/BookDoc'
 class App extends React.Component{
     render(){
-        return (
-            <div>
-                <h1>Welcome to Healthie Team</h1>
-                <Josh />    
-            </div>
-        )
     }
 }
 

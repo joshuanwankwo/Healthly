@@ -1,0 +1,48 @@
+ .home-con{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background:linear-gradient(180deg, rgba(68, 199, 191, 0.1) 0%, #4E9ED8 100%), url(../../../assets/homebackground.svg);
+
+} 
+#home-nav{
+    padding: 25px 0;
+}
+#logo{
+    margin-left:5%;
+}
+#home-search{
+    text-align: center;
+    border-radius: 23px;
+    background-color:rgba(100, 100, 100, 0);
+    outline: none;
+    border:solid 2px #fff;
+    margin-right:200px;
+    width: 250px;
+    color: #fff;
+
+}
+::placeholder{
+    color:#fff;
+    font-family: Noto Sans;
+}
+#home-nav-items ul{
+    float: right;
+}
+#home-nav-items li{
+  display:inline-block;
+  color: #fff;
+  padding-right:50px;
+  font-family: Noto Sans;
+  font-weight: bold;
+}
+#home-intro{
+    margin-top: 15%;
+    text-align:center;
+    color:white;
+    font-weight:bold; 
+    font-family:'Noto Serif', serif;
+    font-size:36px;
+    line-height:80.7%;
+}
