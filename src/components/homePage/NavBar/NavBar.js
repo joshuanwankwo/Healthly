@@ -19,7 +19,6 @@ class NavBar extends React.Component {
                     <div id="home-nav-items" >
                         <img src="./logo.svg" id="logo" />
                         <ul >
-                            <input placeholder="search" id="home-search" />
                             <li>Home</li>
                             <li>About Us</li>
                             <li>Services</li>

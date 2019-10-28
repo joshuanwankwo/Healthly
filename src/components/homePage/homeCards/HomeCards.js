@@ -7,7 +7,7 @@ function HomeCards (props){
 
             <div className="home-card">
                 <p>Meet a Doctor</p>
-                <img src="./doctor.svg"/>
+                <img src="./doctor1.svg"/>
             </div>
 
             <div className="home-card">
@@ -22,7 +22,7 @@ function HomeCards (props){
 
             <div className="home-card">
                 <p>Nearby Hospitals</p>
-                <img src="./doctor.svg"/>
+                <img src="./doctor1.svg"/>
             </div>
 
         </div>
