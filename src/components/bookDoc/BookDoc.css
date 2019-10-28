@@ -1,0 +1,88 @@
+#bookDoc-con{
+    height:100vh;
+    display:grid;
+    grid-template: 10% 90%/1fr;
+}
+#bookDoc-pic-con{
+  display:inline-block;
+  width:50%;
+  height:100%;
+  background: linear-gradient(180deg, rgba(68, 199, 191, 0.5) 0%, #4E9ED8 100%), url('../../assets/doctorIfedi.svg') no-repeat;
+}
+#bookDoc{
+    display:flex;
+}
+#bookDoc-form{
+    display:inline-block;
+    margin:20px;
+    width:50%;
+    text-align:center;
+}
+#bookDoc-location-input{
+    width:100%;
+}
+#bookDoc-location-input img{
+    position: relative;
+    right:5%;
+    
+}
+#bookDoc-location-input input{
+     width:70%;
+     height:50px;
+     border: 1px solid #B4BEC6;
+     border-radius: 4px;
+}
+::placeholder{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 154.4%;
+    color:#35444E;
+    padding-left:10px;
+}
+/* #bookDoc-date-input{
+   
+} */
+#bookDoc-date-input input{
+    background: #FEFEFE;
+    border: 1px solid #B4BEC6;
+    border-radius: 4px;
+    height:50px;
+    width:32%;
+    margin :7px;
+}
+#bookDoc-date-input img{
+    position: relative;
+    right:6%;
+
+}
+#bookDoc-input-button-1{
+    position: relative;
+    right:20%;
+    background-color:#4290C9;
+    color:#fff;
+    border:none;
+    width:62px;
+}
+#bookDoc-input-button-2{
+    position: relative;
+    background-color:#E0E0E0;
+    border:none;
+    width: 62px;
+    right:20%;
+}
+
+#bookDoc-submit button{
+    width:70%;
+    height:50px;
+    border: 2px solid #4290C9;
+    border-radius: 4px;
+    background: #4290C9;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color:#fff;
+}
