@@ -4,7 +4,7 @@ import Symptoms from '../components/Symptoms/Symptoms'
 import BookDoc from '../components/bookDoc/BookDoc'
 class App extends React.Component{
     render(){
-      return <HomePage />
+      return <Symptoms />
     }
 }
 
