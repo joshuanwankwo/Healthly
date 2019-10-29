@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../../public/NavBar/NavBar';
+import NavBar from '../navbar/navbar';
 import './BookDoc.css';
 
 function BookDoc(props) {

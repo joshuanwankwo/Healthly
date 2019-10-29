@@ -1,5 +1,5 @@
 import React from 'react';
-import './Find-a-Doctor-Card.css';
+import './findADoctorCard.css';
 
 class FindADoctorCard extends React.Component {
     constructor(props) {
