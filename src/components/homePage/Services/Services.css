@@ -6,11 +6,10 @@
 }
 #service-background-con{
     position: absolute;
-    
 }
 #home-service{
     display:flex;
-    margin:5%;
+    
     padding-top:86px;
 
 }

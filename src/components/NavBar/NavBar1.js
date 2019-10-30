@@ -1,7 +1,7 @@
 import React from 'react';
 import "./NavBar.css"
 
-class NavBar extends React.Component {
+class NavBar1 extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -10,9 +10,9 @@ class NavBar extends React.Component {
 
     render() {
         return (
-            <nav id="nav-con">
-              <img src="./logo1.svg"/>
-                <ul id="nav-items">
+            <nav id="nav1-con">
+              <img src="./logo.svg"/>
+                <ul id="nav1-items">
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Services</li>
@@ -26,4 +26,4 @@ class NavBar extends React.Component {
     }
 }
 
-export default NavBar;
+export default NavBar1;
