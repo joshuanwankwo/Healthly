@@ -5,10 +5,26 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import NavBar from '../homePage/NavBar/NavBar'
 
-function SignUp(props) {
 
-    return <div className="LoginPage-parent">
-        <Form className="signup-form">
+class  SignUp extends React.Component {
+    constructor(props){
+      super(props);
+      this.state={
+        firstName: null,
+        lastName: null,
+        email:null,
+        password:null,
+      }
+    }
+    submitForm =(event)=>{
+          console.log(event.target.value)
+    }
+    render(){
+       return (
+        <div className="LoginPage-parent">
+
+        <Form className="signup-form" noValidate>
+
         <p className="signup-p">
             Create Patient Account
         </p>
@@ -58,8 +74,10 @@ function SignUp(props) {
       </Form>
 
     </div>
+       )
               
 
-;}
+}
+}
 
 export default SignUp;

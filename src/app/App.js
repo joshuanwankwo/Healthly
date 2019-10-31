@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 
 
-import FindADoctorNav from '../components/findADoctorNav/navBar';
-import LandingPage from '../components/Landing-page/Landing-Page';
-import LoginPage from '../components/LoginPage/loginpage';
+//import FindADoctorNav from '../components/findADoctorNav/navBar';
+//import LandingPage from '../components/Landing-page/Landing-Page';
+//import LoginPage from '../components/LoginPage/loginpage';
 import SignUp from '../components/SignupPage/signup';
 import DoctorsProfile from '../components/DoctorsProfile/DoctorsProfile';
 import HomePage from '../components/homePage/HomePage';
@@ -19,12 +19,13 @@ import {Switch,Route, BrowserRouter} from "react-router-dom";
 import PatientProfile from '../components/PatientProfile/PatientProfile';
 
 
+
   
 class App extends React.Component{
     render(){
 
             return(
-                <UserSetting />
+               <div></div>
             )
     }
 
