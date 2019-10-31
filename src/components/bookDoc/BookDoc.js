@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from '../navbar/navbar';
 import './BookDoc.css';
+import NavBar from '../NavBar/NavBar';
 
 function BookDoc(props) {
     return (

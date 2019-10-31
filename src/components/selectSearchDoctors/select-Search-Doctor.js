@@ -14,11 +14,9 @@ class selectSearchedDoctor extends Component {
                         <img src="./Healthie-Logo2.svg" id="fdoc-logo" />
                     </div>
                     <div className="fdoc-navigation">
-                        <a href="#" >Home</a>
-                        <a href="#" >About Us</a>
-                        <a href="#" >Service</a>
-                        <a href="#" >Blog</a>
-                        <i class="fas fa-user-circle"></i>
+                    <i class="fas fa-user-circle"></i>
+                    <i class="fas fa-bell"></i>
+                        <a href="#" >Appointment</a>
                     </div>
                 </div>
                 <div id="relatedSearch">
@@ -28,7 +26,97 @@ class selectSearchedDoctor extends Component {
                     </div>
 
                     <section id="result-container">
-                        <h1>Related Search</h1>
+                    <h1>Related Search</h1>
+                    <div id="resultData">
+                            <img src="./DrDebby.png" />
+                            <div id="details">
+                            <h1 id='name'>Dr. Ifedili Joshua</h1>
+                            <h2 id='specilaty'>Gynacologist</h2>
+                            <h3 id='hospital'>Graceland Hospital</h3>
+                            <h4 id ='address'>KM 7 Enugu Onitsha Express way Enugu, Nigeria</h4>
+                            <div id="star">
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            </div>
+                            <a href="#">Book Appointment  ></a>
+                            </div>
+
+                    </div>                    
+                    <div id="resultData">
+                            <img src="./DrDebby.png" />
+                            <div id="details">
+                            <h1 id='name'>Dr. Ifedili Joshua</h1>
+                            <h2 id='specilaty'>Gynacologist</h2>
+                            <h3 id='hospital'>Graceland Hospital</h3>
+                            <h4 id ='address'>KM 7 Enugu Onitsha Express way Enugu, Nigeria</h4>
+                            <div id="star">
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            </div>
+                            <a href="#">Book Appointment  ></a>
+                            </div>
+
+                    </div>                    
+                    <div id="resultData">
+                            <img src="./DrDebby.png" />
+                            <div id="details">
+                            <h1 id='name'>Dr. Ifedili Joshua</h1>
+                            <h2 id='specilaty'>Gynacologist</h2>
+                            <h3 id='hospital'>Graceland Hospital</h3>
+                            <h4 id ='address'>KM 7 Enugu Onitsha Express way Enugu, Nigeria</h4>
+                            <div id="star">
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            </div>
+                            <a href="#">Book Appointment  ></a>
+                            </div>
+
+                    </div>                    
+                    <div id="resultData">
+                            <img src="./DrDebby.png" />
+                            <div id="details">
+                            <h1 id='name'>Dr. Ifedili Joshua</h1>
+                            <h2 id='specilaty'>Gynacologist</h2>
+                            <h3 id='hospital'>Graceland Hospital</h3>
+                            <h4 id ='address'>KM 7 Enugu Onitsha Express way Enugu, Nigeria</h4>
+                            <div id="star">
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            </div>
+                            <a href="#">Book Appointment  ></a>
+                            </div>
+
+                    </div>                    
+                    <div id="resultData">
+                            <img src="./DrDebby.png" />
+                            <div id="details">
+                            <h1 id='name'>Dr. Ifedili Joshua</h1>
+                            <h2 id='specilaty'>Gynacologist</h2>
+                            <h3 id='hospital'>Graceland Hospital</h3>
+                            <h4 id ='address'>KM 7 Enugu Onitsha Express way Enugu, Nigeria</h4>
+                            <div id="star">
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            <img src="./Star.svg" />
+                            </div>
+                            <a href="#">Book Appointment  ></a>
+                            </div>
+
+                    </div>
                     </section>
                 </div>
 

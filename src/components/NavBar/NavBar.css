@@ -1,23 +1,62 @@
-#nav-con{
-    color: #4290C9;
-    width:100%;
-    display:grid;
-    grid-template: 1fr/20% 80%;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    padding-top:20px;
+navWrapper{
+    padding: 1em;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    background-color: white;
+
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
 }
 
-#nav-items{
-    display:inline-block;
-    justify-self: end;
-    
+.fdoc-logo{
+    flex: 1;
+    align-self: center;
 }
-#nav-items li{
-    display:inline-block;
-    font-family: Noto Sans;
-    font-style: normal;
+
+
+#fdoc-logo{
+    margin-left: 15%;
+}
+
+.fdoc-navigation{
+    display: flex;
+    flex: 1;
+    align-self: center;
+    justify-content: flex-end;
+    top: 27px;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.fdoc-navigation >a{
+    color: white;
+    font-size: 15px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     font-weight: normal;
-    font-size: 16px;
     line-height: 22px;
-    margin-right:20px;
+    font-family: 'Noto Sans';
+    background-color: #4290C9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+
+}
+
+.fdoc-navigation >a:hover{
+    text-decoration: none;
+    background-color: #4290C9;
+    color:  white;
+    border-radius: 3px;
+}
+
+i{
+    color: #4290C9;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 22px;
+    margin-right: 10px;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from '../navbar/navbar'
 import './Symptom.css';
+import NavBar from '../NavBar/NavBar';
 
 
 function Symptoms(props) {

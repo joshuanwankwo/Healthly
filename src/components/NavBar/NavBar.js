@@ -10,17 +10,18 @@ class NavBar extends React.Component {
 
     render() {
         return (
-            <nav id="nav-con">
-              <img src="./logo1.svg"/>
-                <ul id="nav-items">
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Services</li>
-                    <li>Blog</li>
-                    <li> <i class="fas fa-user-circle"></i></li>
-
-                </ul>
-            </nav>
+            <div>
+                <div id="navWrapper">
+                    <div className="fdoc-logo">
+                        <img src="./Healthie-Logo2.svg" id="fdoc-logo" />
+                    </div>
+                    <div className="fdoc-navigation">
+                        <i class="fas fa-user-circle"></i>
+                        <i class="fas fa-bell"></i>
+                        <a href="#" >Appointment</a>
+                    </div>
+                </div>
+            </div>
 
         )
     }

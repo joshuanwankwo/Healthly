@@ -1,0 +1,16 @@
+#userSettings{
+    /* border: 1px solid black; */
+    height: calc(100vh - 80px);
+    width: calc(100vw - 20vw);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    background-color: #f8f8f8f8;
+}
+
+#container{
+    display: flex;
+
+}

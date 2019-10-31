@@ -1,13 +1,13 @@
 import React from 'react';
 import './Landing-Page.css'
-import Navbar from '../../components/navbar/navbar';
 import Button from '../../components/Button/Button'
+import NavBar from '../NavBar/NavBar';
 
 function LandingPage() {
     
     return <div className="LandingPage-parent ">
 
-            <Navbar/>
+                <NavBar />
 
         <h1 className="h1-tag">
             We are comitted to your health
