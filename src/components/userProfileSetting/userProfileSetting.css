@@ -14,3 +14,10 @@
     display: flex;
 
 }
+
+
+#settingWrapper{
+    height: 95%;
+    width: 55%;
+    border: 1px solid green;
+}

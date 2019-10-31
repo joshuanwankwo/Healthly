@@ -15,7 +15,9 @@ class UserSetting extends Component {
                 <div id='container'>
                 <Sidenav />
                 <div id='userSettings'>
-                    GOD
+                        <div id='settingWrapper'>
+                            
+                        </div>
                 </div>
                 </div>
             </div>
