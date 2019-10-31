@@ -25,11 +25,11 @@ class PatientProfile extends React.Component{
 
                         <section className="titleCard">
                             <h3>Next of kin Information</h3>  
-                        </section>
+                        </section>   
                         <section className="card card2">
                             <div> <h5>First Name</h5> <p> ..... </p> </div>
                             <div> <h2>Last Name</h2> <p> ...... </p> </div>
-                            <div> <h2>Email Address</h2> <p> ............ </p> </div>
+                            <div> <h2>Email Address</h2> <p> ..       .......... </p> </div>
                             <div> <h2>Phone Number</h2> <p> ............ </p> </div>
                             <div> <h2>Address</h2> <p> ................................. </p> </div>
                         </section>
