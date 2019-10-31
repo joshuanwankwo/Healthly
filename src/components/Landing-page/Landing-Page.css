@@ -24,8 +24,8 @@ body{
 
 .h1-tag{
     position: absolute;
-    top: 25%;
-    left: 3%;
+    margin-top: 220px;
+    margin-left: 40px;
     width: 594px;
     height: 154px;
     font-family: noto-serif;
@@ -36,14 +36,15 @@ body{
 
 .p-tag{
     position: absolute;
-    top: 55%;
-    left: 3%;
+    margin-top: 420px;
+    margin-left: 40px;
     width: 446px;
     height: 58px;
     font-size: 1rem;
     color: #4290C9;;
     font-family: Noto Sans;
 }
+
 
 /* .button{
     position: absolute;
@@ -62,7 +63,7 @@ body{
 
 .doctors-img{
     position: relative;
-    right: -60.75%;
+    right: -34.75%;
     top: -1.9%;
    
 }

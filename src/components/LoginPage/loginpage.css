@@ -26,7 +26,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height:100vh;
+    height:100%;
     overflow: hidden;
     width: 100%;
     background:linear-gradient(180deg, rgba(68, 199, 191, 0.1) 0%, #4E9ED8 100%), url(../../assets/Login-page-Img.png);
@@ -37,7 +37,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 70px auto;
+    margin: 0px auto;
     background: white;
     /* width: 400px; */
     width: 28%;

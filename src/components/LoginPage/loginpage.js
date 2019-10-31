@@ -1,10 +1,13 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import './loginpage.css';
+import NavBar from '../homePage/NavBar/NavBar'
 
 function LoginPage() {
     
     return <div className="LoginPage-parent">
+
+            <NavBar/>
 
         <Form className="form-body">
 
