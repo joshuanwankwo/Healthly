@@ -2,14 +2,13 @@ import React from 'react';
 import './signup.css';
 import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import NavBar from '../homePage/NavBar/NavBar'
 
-function SignUp() {
-    
+function SignUp(props) {
+
     return <div className="LoginPage-parent">
-
         <Form className="signup-form">
-
         <p className="signup-p">
             Create Patient Account
         </p>

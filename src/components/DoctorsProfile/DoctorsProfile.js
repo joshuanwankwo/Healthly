@@ -1,7 +1,7 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import './DoctorsProfile.css';
-import Button from '../../components/Button/Button'
+import Button from '../Button/Button'
 
 function DoctorsProfile() {
     
@@ -49,11 +49,6 @@ function DoctorsProfile() {
                     <div>
                 <Button bg={'#4290C9'} buttonName={`Book Appointment`} width={`290px`} height={`59px`}/> 
                     </div>
-
-                    {/* <div className="call-msg-btn">
-                <img src="./Call-icon.png" />
-                <img src="./Message-icon.png" />
-                    </div> */}
 
     </div>
     

@@ -1,10 +1,11 @@
 import React from 'react';
 import './navbar.css'
+import {BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
 
 class Navbar extends React.Component{
     constructor(props) {
         super(props);
-        // change code below this line
+        
     this.state = {
       Navlinks: [{link: "Home", id:1}, {link: "About", id:2}, {link: "Services", id:3}, {link: "Blog", id:4}]
     };
@@ -30,11 +31,22 @@ class Navbar extends React.Component{
 
                         <div className="spacer"></div>
 
+                {/* <Router> */}
                     <div className="Navbtn-group">
-                        <button className="nav-btn nav-btn1">Login</button>
-                        <button className="nav-btn 2 nav-btn2">Sign Up</button>
-                    </div>
+                        <button className="nav-btn nav-btn1"><Link to="/login">Login</Link></button>
 
+                        <button className="nav-btn 2 nav-btn2"> <Link to="/signup">Sign Up</Link> </button>
+                    </div>
+                {/* </Router> */}
+
+
+                        {/* <Switch>
+
+                            <Route path="/signup" component={SignUp} />
+
+                            
+
+                        </Switch> */}
             </div>
         )
     }

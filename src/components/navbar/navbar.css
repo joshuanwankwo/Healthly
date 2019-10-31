@@ -8,7 +8,9 @@
     background-color: transparent;
     display: flex;
     padding: 10px;
+    position: -webkit-sticky;
     position: fixed;
+    top: 0;
     width: 100%;
     height: 74px;
     z-index: 1;
@@ -40,6 +42,7 @@
     margin: 5px;
     color: white;
     border: 1px solid #FFFFFF;
+    /* z-index: 1; */
     
 }
 

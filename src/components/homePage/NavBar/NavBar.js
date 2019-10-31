@@ -15,7 +15,7 @@ class NavBar extends React.Component {
         return (
             <div>
                 
-                <section id="home-nav"  >
+                <section id="home-nav"  style={{ position:this.props.position }}>
                     <div id="home-nav-items" >
                         <img src="./logo.svg" id="logo" />
                         <ul >

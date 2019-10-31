@@ -9,7 +9,8 @@ module.exports = {
   },
   devServer: {
     contentBase: './src/assets',
-    port: 2019
+    port: 2019,
+    historyApiFallback: true
   },
   module: {
     rules: [
