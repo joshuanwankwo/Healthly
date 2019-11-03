@@ -1,16 +1,16 @@
 import React from 'react';
 import NavBar from './NavBar/NavBar';
-import HomeCards from './homeCards/HomeCards';
+import HomeCards from "././homeCards/HomeCards"
 import About from './About/About'
 import Services from './Services/Services'
 import Footer from './Footer/Footer';
 
-    function HomePage(prop){
+    function HomePage(){
     return (
      
       <div className="home-con">
          <NavBar />
-         <HomeCards />
+         <HomeCards/>
          <About />
          <Services />
          <Footer />

@@ -31,22 +31,13 @@ class Navbar extends React.Component{
 
                         <div className="spacer"></div>
 
-                {/* <Router> */}
+
                     <div className="Navbtn-group">
                         <button className="nav-btn nav-btn1"><Link to="/login">Login</Link></button>
 
                         <button className="nav-btn 2 nav-btn2"> <Link to="/signup">Sign Up</Link> </button>
                     </div>
-                {/* </Router> */}
 
-
-                        {/* <Switch>
-
-                            <Route path="/signup" component={SignUp} />
-
-                            
-
-                        </Switch> */}
             </div>
         )
     }

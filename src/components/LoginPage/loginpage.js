@@ -2,6 +2,7 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import './loginpage.css';
 import NavBar from '../homePage/NavBar/NavBar'
+import {Switch,Route, BrowserRouter, Link} from "react-router-dom";
 
 function LoginPage() {
     
@@ -25,8 +26,7 @@ function LoginPage() {
             <Form.Control className="login-password-form-control" type="password" />
             </Form.Group>
 
-
-            <button className="Login-Button btn1">Login</button>
+            <button className="Login-Button btn1"><Link to="/homepage">Login</Link></button>
 
             <button className="Login-Button btn2">Sign Up</button>
 

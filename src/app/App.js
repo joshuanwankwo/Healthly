@@ -19,14 +19,21 @@ class App extends React.Component{
         return ( 
         <div>
             {/* <BrowserRouter>
+
                 <Switch>
                     <Route path="/" component={LandingPage} exact/>
                     <Route path="/signup" component={SignUp} />
                     <Route path="/login" component={LoginPage} />
+                    <Route path="/homepage" component={HomePage}/>
                 </Switch>
+
             </BrowserRouter> */}
 
+            {/* <FindADoctor/> */}
+
             <PatientProfile/>
+
+
 
         </div>
     )}
