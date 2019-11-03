@@ -14,7 +14,6 @@ import FindADoctor from '../components/find-a-doc/find-a-doctor';
 import SelectSearchedDoctor from '../components/selectSearchDoctors/select-Search-Doctor';
 import UserDashboard from '../components/userDashBoard/userDasBoard';
 import UserSetting from '../components/userProfileSetting/userProfileSetting';
-import NavBar from '../components/homePage/NavBar/NavBar';
 import {Switch,Route, BrowserRouter} from "react-router-dom";
 import PatientProfile from '../components/PatientProfile/PatientProfile';
 
@@ -25,7 +24,7 @@ class App extends React.Component{
     render(){
 
             return(
-               <div></div>
+               <UserSetting />
             )
     }
 
