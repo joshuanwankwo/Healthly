@@ -20,7 +20,7 @@ class PatientProfile extends React.Component{
                             <div> <h2>Last Name</h2> <p> Nwangwu </p> </div>
                             <div> <h2>Email Address</h2> <p> Okafor@gmail.com </p> </div>
                             <div> <h2>Phone Number</h2> <p> 08161565745 </p> </div>
-                            <div> <h2>Address</h2> <p> No 8 ogbuagu street bayelsa enugu </p> </div>
+                            <div className="address"> <h2>Address</h2> <p> No 8 ogbuagu street bayelsa enugu </p> </div>
                         </section>
 
                         <section className="titleCard">

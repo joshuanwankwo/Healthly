@@ -1,21 +1,28 @@
 import React from 'react';
 import HomePageMain from './HomePageMain/HomePageMain';
+import NavBar from './NavBar/NavBar';
+import HomeCards from "././homeCards/HomeCards"
 import About from './About/About'
 import Services from './Services/Services'
 import Footer from './Footer/Footer';
 import Solution from './Solutions/Solution'
 import Team from './Team/Team';
 
-    function HomePage(prop){
+    function HomePage(){
     return (
      
       <div className="home-con">
-          <HomePageMain />
+        <HomePageMain />
          <About /> 
-          <Services /> 
+         <Services /> 
          <Solution />
          <Team />
-          <Footer />
+         <Footer />
+         <NavBar />
+         <HomeCards/>
+         <About />
+         <Services />
+         <Footer />
       </div>
     )
     }
