@@ -21,15 +21,37 @@ import PatientProfile from '../components/PatientProfile/PatientProfile';
 
 
   
-class App extends React.Component{
-    render(){
-
-            return(
-               <div></div>
-            )
+class App extends Component {
+    constructor(props) {
+        super(props);
     }
+    render() { 
+        return ( 
 
-}
-
+                <div>
+                     <BrowserRouter>
+        
+                        <Switch>
+                            <Route path="/" component={LandingPage} exact/>
+                            <Route path="/signup" component={SignUp} />
+                            <Route path="/login" component={LoginPage} />
+                            <Route path="/homepage" component={HomePage}/>
+                        </Switch>
+        
+                    </BrowserRouter> 
+        
+                     <FindADoctor/> 
+        
+                    <PatientProfile/>
+        
+        
+        
+                </div>
+            )
+        }
+        
+    
+    }
+ 
 export default App;
 

@@ -43,3 +43,7 @@
     width: 950px;
 }
 
+.address{
+    display: flex;
+    justify-content: flex-start;
+}

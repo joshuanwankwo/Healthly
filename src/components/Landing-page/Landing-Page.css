@@ -43,6 +43,7 @@ body{
     font-size: 1rem;
     color: #4290C9;;
     font-family: Noto Sans;
+    word-wrap: wrap;
 }
 
 

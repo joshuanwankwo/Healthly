@@ -1,7 +1,13 @@
 import React from 'react';
-import './Landing-Page.css'
-import Button from '../../components/Button/Button'
+import './Landing-Page.css';
+import Button from '../../components/Button/Button';
 import NavBar from '../NavBar/NavBar';
+// import Navbar from '../navbar/navbar';
+import Button from '../Button/Button'
+import About from '../homePage/About/About';
+import Services from '../homePage/Services/Services';
+import Footer from '../homePage/Footer/Footer';
+import {Switch,Route, BrowserRouter, Link} from "react-router-dom";
 
 function LandingPage() {
     
